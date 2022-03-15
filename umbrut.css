@@ -1,11 +1,12 @@
 body{
-    background-color: rgba(255, 0, 0, 0.131);
+    background-color: white;
     font-family: 'Playfair Display', serif;
     font-size: 20px;
-    color: gold;
+    color: black;
     width: 100%;
     position: fixed;
-    margin: 0px;
+    margin: 0;
+    left: 5px;
 }
 header{
    color: black;
