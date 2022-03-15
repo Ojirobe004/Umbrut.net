@@ -11,8 +11,14 @@ body{
 header{
    color: black;
    font-size: inherit;
-   
-  }
+   }
+   .header{
+       position: relative;
+       width: 100%;
+       top: 0px;
+       left: 0px;
+       z-index: 1;
+   }
 .op-div{
      color: black;
      display: flex;
@@ -20,28 +26,32 @@ header{
    justify-content: space-between;
    width: 100%;
    overflow: hidden;
-   position: relative;
-   margin: 0px;
    } 
-
-
 .op-ul nav ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     gap: 18px;
-    width: 50vw;
     padding-right: 10px;
 }
+.op ul nav ul li{
+    /* display: inline-bloc;
+    width: 25; */
+} 
 .op-ul nav ul li a{
     color: black;
     text-decoration: none;
-    transition: 0.8s;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+}
+a{
+    transition: 2s;
 }
 .op-ul nav ul li a:hover{
     text-decoration: underline;
-    transition: 0.8s;
+    color: pink;
 }
 main{
     position: relative;
