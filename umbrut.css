@@ -15,7 +15,7 @@ header{
    .header{
        position: relative;
        margin: auto;
-       width: 80%;
+       width: 70%;
        left: 0px;
        z-index: 1;
    }
@@ -27,6 +27,11 @@ header{
    width: 100%;
    overflow: hidden;
    } 
+   .op-logo{
+       font-weight: bolder;
+       font-size: larger;
+       font-size: 30px;
+   }
 .op-ul nav ul{
     list-style-type: none;
     display: flex;
@@ -56,11 +61,12 @@ main{
     }
     .bo-div{
         background-color: rgba(172, 172, 172, 0.398); 
+        position: relative;
         align-items: center;  
         padding: 10px;
         height: 500px;
         margin: auto;
-        width: 80%;
+        width: 70%;
     }
 #intro{
     font-size: 50px;
@@ -93,4 +99,19 @@ list-style: none;
     width: 40%;
     line-height: 50px;
     font-size: 30px;
+}
+.desc-ano{
+    position: absolute;
+    top: 500px;
+    right: 161px;
+    background-color: rgb(35, 43, 43);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+    width: 350px;
+    margin: auto;
+    text-align: left;
+    align-items: center;
+    padding: 15px 50px 15px 30px;
 }
