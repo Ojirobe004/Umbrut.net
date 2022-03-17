@@ -15,13 +15,12 @@ header{
    .header{
        position: relative;
        width: 100%;
-       
        left: 0px;
        z-index: 1;
    }
 .op-div{
-     color: black;
-     display: flex;
+   color: black;
+   display: flex;
    flex-direction: row;
    justify-content: space-between;
    width: 100%;
@@ -58,7 +57,6 @@ main{
         background-color: rgba(172, 172, 172, 0.398); 
         align-items: center;  
         padding: 50px;
-        
     }
 #intro{
     font-size: 50px;
@@ -66,14 +64,25 @@ main{
 }
 .description{
     display: flex;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: space-between;
     line-height: 80px;
-}
+    height: 30%;
+    top: 0px;
+    }
 .numero{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bolder;
-    display: flex;
-    gap: 10px;
-    justify-content: flex-end;
-    left: 0px;
+    font-weight: bolder;    
+    }
+.numero ul{
+    width: 100%;
+    
+    list-style: none;
+    
+}
+.numero li{
+    display: inline-block;
+    width: 40%;
+    line-height: 50px;
+    font-size: 30px;
 }
