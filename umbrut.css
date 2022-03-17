@@ -100,18 +100,18 @@ list-style: none;
     line-height: 50px;
     font-size: 30px;
 }
-.desc-ano{
+#desc-ano{
     position: absolute;
-    top: 500px;
-    right: 161px;
+    right: 0px;
+    top: 400px;
     background-color: rgb(35, 43, 43);
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;
+    font-size: 14px;
     line-height: 30px;
     width: 350px;
     margin: auto;
     text-align: left;
     align-items: center;
-    padding: 15px 50px 15px 30px;
+    padding: 15px 40px 15px 30px;
 }
