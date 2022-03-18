@@ -44,7 +44,7 @@ header{
 .op-ul nav ul li a{
     color: black;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
 }
@@ -53,7 +53,7 @@ a{
 }
 .op-ul nav ul li a:hover{
     text-decoration: underline;
-    color: pink;
+    color: rgba(172, 172, 172, 0.981);
 }
 main{
     /* position: absolute; */
@@ -63,13 +63,14 @@ main{
         background-color: rgba(172, 172, 172, 0.398); 
         position: relative;
         align-items: center;  
-        padding: 10px;
+        padding: 0px;
         height: 500px;
         margin: auto;
         width: 70%;
     }
 #intro{
-    font-size: 50px;
+    font-size: 60px;
+    padding-top: 0px;
     text-transform: capitalize;
     line-height: 100px;
 }
@@ -96,9 +97,15 @@ list-style: none;
 }
 .numero li{
     display: inline-block;
+    opacity: 10;
     width: 40%;
     line-height: 50px;
-    font-size: 30px;
+    font-size: 27px;
+}
+.numero ul li span{
+    font-weight: 1;
+    font-size: 0.7em;
+    opacity: 1;
 }
 #desc-ano{
     position: absolute;
@@ -106,12 +113,12 @@ list-style: none;
     top: 400px;
     background-color: rgb(35, 43, 43);
     color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
     line-height: 30px;
     width: 350px;
     margin: auto;
     text-align: left;
     align-items: center;
-    padding: 15px 40px 15px 30px;
+    padding: 15px 0px 15px 20px;
 }
