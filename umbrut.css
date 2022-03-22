@@ -4,6 +4,7 @@ body{
     font-size: 20px;
     color: black;
     margin: 20px;
+    vertical-align: baseline;
 }
 header{
    color: black;
@@ -12,7 +13,7 @@ header{
    .header{
        position: relative;
        margin: auto;
-       width: 70%;
+       width: 90%;
        left: 0px;
        z-index: 1;
    }
@@ -62,7 +63,7 @@ main{
         padding: 0px;
         height: 500px;
         margin: auto;
-        width: 70%;
+        width: 90%;
     }
 #intro{
     font-size: 60px;
@@ -106,13 +107,13 @@ list-style: none;
 #desc-ano{
     position: absolute;
     right: 0px;
-    top: 400px;
+    top: 350px;
     background-color: #293038;
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
     line-height: 30px;
-    width: 350px;
+    width: 400px;
     margin: auto;
     text-align: left;
     align-items: center;
@@ -122,15 +123,27 @@ list-style: none;
     position: relative;
     top: 190px;
     margin: auto;
-    width: 70%;
+    width: inherit;
     }
     #ad-description{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
-
+    #ad-description #wild-text{
+        color: #262626;
+        font-size: 45px;
+        line-height: 100%;
+    }
+    #wild-text span{
+        font-size: 25px;
+    }
+    #ad-description span{
+        color: #9FA1A6;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
     #ad-box img{
-        width: 600px;
+        width: 700px;
         height: 400px;
     }
