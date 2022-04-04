@@ -186,6 +186,7 @@ main{
     }
     #hist-div{
         position: relative;
+        height: fit-content;
         top: 300px;
         display: flex;
         justify-content: space-around;
@@ -204,7 +205,7 @@ main{
 
     #founded{
         font-size: 25px;
-        font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
         width: 38%;
         line-height: 200%;
     }
@@ -220,18 +221,42 @@ main{
         text-decoration: underline;
         color: #7a7e83;
     }
-    #vision-div{
-        position: relative;
-        top: 600px;
-        background-color: rgb(41,48,56);
-        width: 1000px;
+    #vis-div{
+    position: relative;
+    top: 330px;
+    margin: auto;
+    width: 90%;
     }
-    #vis1{
-        position: absolute;
-        top: -100px;
+    #vis-div1{
+    position: relative;
+    text-align: center;
     }
-    #vis-img1{
-        width: 50%;
+    #vis-div1 img{
+    width: 80%;
+    height: 600px;
     }
-
-    
+    #vis-div2{
+    margin: auto;
+    width: 100%;
+    background-color: #293038;
+    /* color: #FFFFFF; */
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    }
+    #it-is{
+    color: #FFFFFF;
+    font-size: 40px;
+    width: 500px;
+    text-align: justify;
+    word-spacing: -3px;
+    }
+   #vis-div2i #p2{
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    width: 600px;
+    color: #7F8488;
+    text-align: justify;
+    }
